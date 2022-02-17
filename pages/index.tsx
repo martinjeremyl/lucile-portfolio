@@ -1,8 +1,6 @@
-import Image from 'next/image'
-import styles from './index.module.css'
+import EmblaCarousel from "../components/carousel";
+import { Slide } from "../components/type";
 
-export default function Home() {
-  return (
-   <div className="gradual fakeHeight">Lucile Russo</div>
-  )
+export default function Home({ Component, pageProps }) {
+    return <EmblaCarousel {...pageProps} />;
 }
