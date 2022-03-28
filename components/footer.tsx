@@ -6,7 +6,7 @@ import linkedinIcon from "../styles/icons/linkedin.svg";
 
 export default function Footer() {
     return (
-        <footer role="contentinfo">
+        <footer role="contentinfo" className="custom-container mx-auto">
             <hr className="m-auto mb-2"></hr>
             <div className="flex flex-row items-center pb-2">
                 <div className="text-xl ml-2 lg:ml-8 basis-2/12 lg:basis-8/12 flex flex-row">
@@ -51,7 +51,7 @@ export default function Footer() {
                 </div>
                 <address className="flex flex-col ml-2 basis-6/12 lg:basis-2/12">
                     <div>06.29.08.71.35</div>
-                    <div>russo.lucile24@gmail.com</div>
+                    <div>luluberlu.studio@gmail.com</div>
                 </address>
             </div>
         </footer>

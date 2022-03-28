@@ -5,14 +5,14 @@ import React from "react";
 
 export default function Work({ Component, pageProps }) {
     return (
-        <div className="text-center grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4">
+        <div className="custom-container mx-auto grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {slides.map((slide, index) => (
                 <div
                     key={index}
                     className="hoverable-image transparent-hoverable"
                     style={{ position: "relative", height: "450px" }}
                 >
-                    <Link href="/" passHref>
+                    <Link href={slide.link} passHref>
                         <a>
                             <Image
                                 className="cursor-pointer"
@@ -23,8 +23,8 @@ export default function Work({ Component, pageProps }) {
                             />
                         </a>
                     </Link>
-                    <span className="hoverable-text gradual">
-                        Des chaussures très cool
+                    <span className="hoverable-text gradual px-8">
+                        {slide.subtitle}
                     </span>
                 </div>
             ))}

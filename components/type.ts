@@ -3,43 +3,63 @@ export interface Slide {
     title: string;
     subtitle: string;
     alt: string;
+    link: string;
 }
 export const slides: Slide[] = [
     {
-        url: "/images/shift-1.jpg",
+        url: "/images/index/shift-1.jpg",
         alt: "",
-        title: "Test 1",
-        subtitle: "",
+        title: "Shift",
+        subtitle: "Shift",
+        link: "projet/shift",
     },
     {
-        url: "/images/tran-2.jpg",
+        url: "/images/index/tran-2.jpg",
         alt: "",
-        title: "Test 2",
-        subtitle: "",
+        title: "Transformer festival",
+        subtitle: "Transformer festival",
+        link: "projet/transformer-festival",
     },
     {
-        url: "/images/illumi-3.jpg",
+        url: "/images/index/illumi-3.jpg",
         alt: "",
-        title: "Test 3",
-        subtitle: "",
+        title: "L'illuminerie",
+        subtitle: "L'illuminerie",
+        link: "projet/illuminerie",
     },
     {
-        url: "/images/mami-4.jpg",
+        url: "/images/index/mami-4.jpg",
         alt: "",
-        title: "Test 4",
-        subtitle: "",
+        title: "Mamie boulette",
+        subtitle: "Mamie boulette",
+        link: "projet/mamie-boulette",
     },
     {
-        url: "/images/illu-5.jpg",
+        url: "/images/index/TN-7.jpg",
         alt: "",
-        title: "Test 5",
-        subtitle: "",
+        title: "Théâtre de Nîmes",
+        subtitle: "Théâtre de Nîmes",
+        link: "projet/theatre-nimes",
     },
     {
-        url: "/images/cirva-6.jpg",
+        url: "/images/index/TLMD-8.jpg",
         alt: "",
-        title: "Test 6",
-        subtitle: "",
+        title: "Tout le monde dehors",
+        subtitle: "Tout le monde dehors",
+        link: "projet/tlmd",
     },
-    { url: "/images/TN-7.jpg", alt: "", title: "Test 7", subtitle: "" },
+    {
+        url: "/images/index/cirva-6.jpg",
+        alt: "",
+        title: "CIRVA",
+        subtitle: "CIRVA",
+        link: "projet/cirva",
+    },
+    {
+        url: "/images/index/illu-5.jpg",
+        alt: "",
+        title: "Illu fleur",
+        subtitle: "Illu fleur",
+        link: "projet/fleur",
+    },
 ];

@@ -1,14 +1,16 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
 import "../styles/globals.css";
+import NextNProgress from "nextjs-progressbar";
 
 function MyApp({ Component, pageProps }) {
     return (
-        <div className="flex flex-col h-screen">
-            <div>
+        <div className="flex flex-col">
+            <NextNProgress />
+            <div className="sticky top-0 z-50">
                 <Header></Header>
             </div>
-            <div className="flex-1 overflow-y-auto">
+            <div className="">
                 <Component {...pageProps} />
             </div>
             <div>

@@ -11,6 +11,23 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "Bw Gradual Light";
+    src: url("./fonts/BwGradual-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: "Bw Gradual Black";
+    src: url("./fonts/BwGradual-Black.otf") format("opentype");
+}
+
+h2 {
+    font-family: "Bw Gradual Light";
+}
+
+h3 {
+    font-size: 2rem;
+    letter-spacing: 1.2rem;
+}
 .gradual {
     font-family: "Bw Gradual";
     font-weight: bold;
@@ -26,7 +43,6 @@ hr {
     background-color: #2b00ff;
     height: 1px;
     border: none;
-    width: 97%;
 }
 
 .active {
@@ -97,7 +113,16 @@ hr {
     cursor: default;
     opacity: 0.3;
 }
-
+.next-project {
+    width: 30px;
+    height: 30px;
+}
+.custom-container {
+    max-width: 1355px;
+}
+.detail-text {
+    line-height: 20px;
+}
 .embla__button__svg {
     width: 30px;
     height: 30px;
@@ -125,7 +150,17 @@ hr {
     z-index: 10;
     color: white;
     font-size: 1.4rem;
+    cursor: pointer;
 }
 .hoverable-text {
     display: none;
+}
+
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.fill-white {
+    fill: white !important;
 }
