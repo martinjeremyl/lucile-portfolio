@@ -49,7 +49,8 @@ export default function EmblaCarousel({ Component, pageProps }) {
                                         src={slide.url}
                                         alt={slide.alt}
                                         layout="fill"
-                                        objectFit="fill"
+                                        objectFit="cover"
+                                        quality={10}
                                     />
                                 </div>
                             </div>

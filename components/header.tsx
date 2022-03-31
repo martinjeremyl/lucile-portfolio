@@ -11,13 +11,15 @@ export default function Header() {
             <div className="flex flex-row items-center pt-3 pb-2 bg-white custom-container mx-auto">
                 <div className="basis-4/12 text-center sm:text-left lg:basis-8/12 ml-6">
                     <Link href="/" passHref>
-                        <Image
-                            src={logoIcon}
-                            alt="Lucile Russo Logo"
-                            width={60}
-                            height={60}
-                            className="cursor-pointer"
-                        />
+                        <a>
+                            <Image
+                                src={logoIcon}
+                                alt="Lucile Russo Logo"
+                                width={60}
+                                height={60}
+                                className="cursor-pointer"
+                            />
+                        </a>
                     </Link>
                 </div>
                 <div className="basis-4/12 lg:basis-2/12 text-center">

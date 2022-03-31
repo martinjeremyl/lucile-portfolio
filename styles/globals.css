@@ -34,6 +34,9 @@ h3 {
     font-style: normal;
 }
 
+.gradual-light {
+    font-family: "Bw Gradual Light";
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #2b00ff;
@@ -54,13 +57,19 @@ hr {
     background-color: #f7f7f7;
     margin-left: auto;
     margin-right: auto;
+    min-height: 65vh;
 }
 
 .embla__viewport {
     overflow: hidden;
     width: 100%;
 }
-
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: none !important;
+}
 .embla__viewport.is-draggable {
     cursor: move;
     cursor: grab;
@@ -113,10 +122,6 @@ hr {
     cursor: default;
     opacity: 0.3;
 }
-.next-project {
-    width: 30px;
-    height: 30px;
-}
 .custom-container {
     max-width: 1355px;
 }
@@ -124,8 +129,8 @@ hr {
     line-height: 20px;
 }
 .embla__button__svg {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .text-center > span {
@@ -161,6 +166,33 @@ hr {
     padding-right: 2rem;
 }
 
-.fill-white {
-    fill: white !important;
+.stroke-white {
+    stroke: white !important;
 }
+
+.cls-1{fill:none;stroke:#2b00ff;stroke-width:5px;}
+
+.blue-text-container {
+    background-color: #2b00ff;
+    color: white;
+    font-family: "Bw Gradual";
+    font-size: 2rem;
+}
+
+.cv {
+ height: 180px;
+ width: 180px;
+}
+
+.cv:hover {
+    animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

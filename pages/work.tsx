@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import { slides } from "../components/type";
 import Image from "next/image";
 import Link from "next/link";
@@ -20,12 +21,13 @@ export default function Work({ Component, pageProps }) {
                                 alt={slide.alt}
                                 layout="fill"
                                 objectFit="cover"
+                                priority={slide?.priority}
                             />
+                            <span className="hoverable-text gradual px-8">
+                                {slide.subtitle}
+                            </span>
                         </a>
                     </Link>
-                    <span className="hoverable-text gradual px-8">
-                        {slide.subtitle}
-                    </span>
                 </div>
             ))}
         </div>

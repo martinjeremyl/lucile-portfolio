@@ -3,10 +3,19 @@ import mapPointerIcon from "../styles/icons/nantes.svg";
 import behanceIcon from "../styles/icons/behance.svg";
 import instagramIcon from "../styles/icons/insta.svg";
 import linkedinIcon from "../styles/icons/linkedin.svg";
+import { useRouter } from "next/router";
 
 export default function Footer() {
+    const router = useRouter();
     return (
-        <footer role="contentinfo" className="custom-container mx-auto">
+        <footer
+            role="contentinfo"
+            className={`custom-container mx-auto ${
+                router.pathname === "/" || router.pathname === "/contact"
+                    ? "fixed-footer"
+                    : ""
+            }`}
+        >
             <hr className="m-auto mb-2"></hr>
             <div className="flex flex-row items-center pb-2">
                 <div className="text-xl ml-2 lg:ml-8 basis-2/12 lg:basis-8/12 flex flex-row">
