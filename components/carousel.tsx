@@ -58,9 +58,9 @@ export default function EmblaCarousel({ Component, pageProps }) {
                     </div>
                 </div>
             </div>
-            <div className="w-full flex flex-row justify-between mb-4 mt-10 items-center">
+            <div className="w-full flex flex-row justify-between mb-4 mt-5 md:mt-10 items-center">
                 <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
-                <div className="text-4xl gradual">{title}</div>
+                <div className="text-4xl gradual text-center">{title}</div>
                 <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
             </div>
         </>

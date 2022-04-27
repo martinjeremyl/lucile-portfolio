@@ -4,32 +4,35 @@ export default function About({ Component, pageProps }) {
     return (
         <div className="custom-container mx-auto px-4 md:px-0">
             <div className="md:flex">
-                <div className="md:w-1/2 relative blue-text-container p-8">
+                <div className="md:w-1/2 relative blue-text-container pt-20 md:pt-12 p-5 md:p-8">
+                    De nature <span className="underline">passionnée</span>
+                    ,&nbsp;
+                    <br></br>
+                    <span className="underline">dynamique et atypique</span> on
+                    &nbsp; <br></br>
+                    me surnomme Luluberlu !&nbsp; <br></br>
+                    Ce que j&apos;aime dans le métier&nbsp; <br></br>
+                    c&apos;est la{" "}
+                    <span className="underline">diversité des projets</span> et
+                    &nbsp; <br></br>
+                    <span className="underline">
+                        rendre vivant ce qui ne l&apos;est pas.
+                    </span>
+                    &nbsp; <br></br>
+                    Avec une dose{" "}
+                    <span className="underline">
+                        d&apos;énergie
+                    </span>,&nbsp; <br></br> une dose de{" "}
+                    <span className="underline">passion</span> et une pointe de
+                    <br></br>
+                    <span className="underline">détermination</span>, un{" "}
+                    <span className="underline">combo parfait</span>
+                    &nbsp; <br></br> pour réaliser le plus{" "}
+                    <span className="underline"> fou des projets.</span>
                     <img
                         src="/icons/cv.svg"
                         className="cv absolute top-0 right-0"
                     />
-                    De nature <span className="underline">passionnée</span>,
-                    <br></br>
-                    <span className="underline">dynamique et atypique</span> on
-                    <br></br>
-                    me surnomme Luluberlu !<br></br>
-                    Ce que j&apos;aime dans le métier<br></br>
-                    c&apos;est la{" "}
-                    <span className="underline">diversité des projets</span> et
-                    <br></br>
-                    <span className="underline">
-                        rendre vivant ce qui ne l&apos;est pas.
-                    </span>
-                    <br></br>
-                    Avec une dose{" "}
-                    <span className="underline">d&apos;énergie</span>,<br></br>{" "}
-                    une dose de <span className="underline">passion</span> et
-                    une pointe de<br></br>
-                    <span className="underline">détermination</span>, un{" "}
-                    <span className="underline">combo parfait</span>
-                    <br></br> pour réaliser le plus{" "}
-                    <span className="underline"> fou des projets.</span>
                 </div>
                 <div className="md:w-1/2">
                     <Image
@@ -45,8 +48,8 @@ export default function About({ Component, pageProps }) {
                     />
                 </div>
             </div>
-            <div className="md:flex mt-4">
-                <div className="md:w-1/2 p-6">
+            <div className="flex flex-col md:flex-row mt-4">
+                <div className="w-full md:w-1/2 p-6 order-2 md:order-1">
                     <Image
                         src={"/images/about/about.jpg"}
                         alt={
@@ -58,7 +61,7 @@ export default function About({ Component, pageProps }) {
                         layout="responsive"
                     />
                 </div>
-                <div className="md:w-1/2 text-xl p-8">
+                <div className="w-full md:w-1/2 text-xl p-8 order-1 md:order-2">
                     <p>
                         En bref, je suis Lucile. Une directrice artistique
                         junior indépendante passionnée et déterminé.

@@ -8,8 +8,8 @@ export default function Header() {
     const router = useRouter();
     return (
         <header>
-            <div className="flex flex-row items-center pt-3 pb-2 bg-white custom-container mx-auto">
-                <div className="basis-4/12 text-center sm:text-left lg:basis-8/12 ml-6">
+            <div className="flex flex-row items-center pt-3 pb-2 bg-white custom-container mx-auto pr-4 md:pr-0">
+                <div className="basis-4/12 text-center sm:text-left lg:basis-8/12 ml-0 md:ml-6">
                     <Link href="/" passHref>
                         <a>
                             <Image

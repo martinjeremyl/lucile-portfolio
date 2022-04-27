@@ -178,12 +178,27 @@ hr {
     font-family: "Bw Gradual";
     font-size: 2rem;
 }
-
 .cv {
- height: 180px;
- width: 180px;
+    height: 180px;
+    width: 180px;
+   }
+   
+@media screen and (max-width: 640px) {
+    .blue-text-container {
+        font-size: 1.5rem;
+        line-height: 1.9rem;
+    }
+    .blue-text-container br {
+        display: none;
+    }
+    .cv {
+        height: 120px;
+        width: 120px;
+    }
+    .contact-text {
+        font-size: 1.813rem;
+    }
 }
-
 .cv:hover {
     animation: rotation 6s infinite linear;
 }
