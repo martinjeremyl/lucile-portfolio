@@ -198,7 +198,7 @@ hr {
         width: 120px;
     }
     .contact-text {
-        font-size: 1.813rem;
+        font-size: 1.713rem;
     }
 }
 .cv:hover {
@@ -213,3 +213,12 @@ hr {
       transform: rotate(359deg);
     }
   }
+
+  .blue-background {
+      background-color: #2b00ff;
+      color: white;
+  }
+
+  .blue-background h3 { font-family: "Bw Gradual";
+    letter-spacing: 0.1rem;
+}

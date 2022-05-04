@@ -29,10 +29,12 @@ export default function About({ Component, pageProps }) {
                     <span className="underline">combo parfait</span>
                     &nbsp; <br></br> pour réaliser le plus{" "}
                     <span className="underline"> fou des projets.</span>
-                    <img
-                        src="/icons/cv.svg"
-                        className="cv absolute top-0 right-0"
-                    />
+                    <a href="/files/cv-lucile-russo.pdf" download>
+                        <img
+                            src="/icons/cv.svg"
+                            className="cv absolute top-0 right-0"
+                        />
+                    </a>
                 </div>
                 <div className="md:w-1/2">
                     <Image

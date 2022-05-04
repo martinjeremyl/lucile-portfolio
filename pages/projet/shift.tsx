@@ -78,8 +78,8 @@ export default function Shift({ Component, pageProps }) {
                     </h2>
                     <p className="detail-text mb-3">
                         Shift est une marque de baskets vegan qui fabrique
-                        chacune de ces paires grâce à la récupération de chutes
-                        de tissus, ainsi que de rouleaux de tissus inutilisés.
+                        chacune de ses paires grâce à la récupération de chutes
+                        de tissu, ainsi que de rouleaux de tissu inutilisés.
                     </p>
                     <p className="detail-text mb-3">
                         Vous pouvez personnaliser vos baskets avec vos propres
@@ -90,7 +90,7 @@ export default function Shift({ Component, pageProps }) {
                         Shift offre aussi la possibilité de participer au
                         mouvement en envoyant vos tissus inutilisés pour
                         permettre l’upcycling de vos tissus et obtenir une
-                        réduction sur votre prochaine paire
+                        réduction sur votre prochaine paire.
                     </p>
                 </div>
             </div>
