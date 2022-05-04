@@ -66,9 +66,11 @@ hr {
 }
 .fixed-footer {
     position: fixed;
+    background: white;
     bottom: 0;
     width: 100%;
-    max-width: none !important;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .embla__viewport.is-draggable {
     cursor: move;

@@ -10,11 +10,7 @@ export default function Footer() {
     return (
         <footer
             role="contentinfo"
-            className={`custom-container mx-auto ${
-                router.pathname === "/" || router.pathname === "/contact"
-                    ? "fixed-footer"
-                    : ""
-            }`}
+            className={`custom-container mx-auto fixed-footer`}
         >
             <hr className="m-auto mb-2"></hr>
             <div className="flex flex-row items-center pb-2">

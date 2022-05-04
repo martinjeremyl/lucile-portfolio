@@ -10,7 +10,7 @@ export default function Header() {
         <header>
             <div className="flex flex-row items-center pt-3 pb-2 bg-white custom-container mx-auto pr-4 md:pr-0">
                 <div className="basis-4/12 text-center sm:text-left lg:basis-8/12 ml-0 md:ml-6">
-                    <Link href="/" passHref>
+                    <Link href="/work" passHref>
                         <a>
                             <Image
                                 src={logoIcon}

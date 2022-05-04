@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About({ Component, pageProps }) {
     return (
-        <div className="custom-container mx-auto px-4 md:px-0">
+        <div className="custom-container pb-20 mx-auto px-4 md:px-0">
             <div className="md:flex">
                 <div className="md:w-1/2 relative blue-text-container pt-20 md:pt-12 p-5 md:p-8">
                     De nature <span className="underline">passionnée</span>

@@ -6,7 +6,7 @@ import React from "react";
 
 export default function Work({ Component, pageProps }) {
     return (
-        <div className="custom-container mx-auto grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="custom-container mx-auto pb-20 grid gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {slides.map((slide, index) => (
                 <div
                     key={index}
