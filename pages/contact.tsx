@@ -90,7 +90,7 @@ export default function Contact({ Component, pageProps }) {
                     </p>
                     <div className="mt-10">
                         <Link href="mailto:luluberlu.studio@gmail.com" passHref>
-                            <span className="gradual cursor-pointer text-2xl md:text-5xl">
+                            <span className="hover:underline gradual cursor-pointer text-2xl md:text-5xl">
                                 luluberlu.studio@gmail.com
                             </span>
                         </Link>
