@@ -70,7 +70,12 @@ export default function Illuminerie({ Component, pageProps }) {
                         layout="responsive"
                     />
                 </div>
-                <div className="md:w-1/4 md:ml-20 w-100 md:flex flex-col self-center">
+                <div
+                    className="md:w-1/4 md:ml-20 w-100 md:flex flex-col self-center"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-sine"
+                >
                     <div>
                         <h2 className="mt-2 mb-8 text-3xl md:text-4xl">
                             Retail Média change de nom, <br></br>de logo et de

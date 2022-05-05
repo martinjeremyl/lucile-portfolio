@@ -71,7 +71,12 @@ export default function Shift({ Component, pageProps }) {
                     />
                 </div>
                 <div className="md:w-1/12"></div>
-                <div className="md:w-1/4 md:ml-6 w-100">
+                <div
+                    className="md:w-1/4 md:ml-6 w-100"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-sine"
+                >
                     <h2 className="mt-2 mb-8 text-3xl md:text-4xl">
                         Une marque de chaussures ayant un concept à but
                         écologique.

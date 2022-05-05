@@ -13,7 +13,12 @@ export default function Contact({ Component, pageProps }) {
                 layout="responsive"
             />
             <div className="p-8 blue-background md:flex md:flex-row">
-                <div className="md:w-1/3">
+                <div
+                    className="md:w-1/3"
+                    data-aos="fade-left"
+                    data-aos-duration="700"
+                    data-aos-easing="ease-in-sine"
+                >
                     <h3>Logo & Motion</h3>
                     <p>
                         À vos côtés, je créais une identité visuelle qui vous
@@ -23,7 +28,12 @@ export default function Contact({ Component, pageProps }) {
                         communication solide.
                     </p>
                 </div>
-                <div className="mt-4 md:mt-0 md:ml-2 md:w-1/3">
+                <div
+                    className="mt-4 md:mt-0 md:ml-2 md:w-1/3"
+                    data-aos="fade-left"
+                    data-aos-duration="900"
+                    data-aos-easing="ease-in-sine"
+                >
                     <h3>Illustrations</h3>
                     <p>
                         Passionnée de dessin depuis toujours, ce serais un
@@ -34,7 +44,12 @@ export default function Contact({ Component, pageProps }) {
                         que je compte relever avec créativité et précision.
                     </p>
                 </div>
-                <div className="mt-4 md:mt-0 md:ml-2 md:w-1/3">
+                <div
+                    className="mt-4 md:mt-0 md:ml-2 md:w-1/3"
+                    data-aos="fade-left"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-sine"
+                >
                     <h3>Packaging</h3>
                     <p>
                         Le packaging est tout aussi important que le produit que
@@ -46,7 +61,12 @@ export default function Contact({ Component, pageProps }) {
                 </div>
             </div>
             <div className="p-8 pt-0 blue-background md:flex md:flex-row">
-                <div className="md:w-1/3">
+                <div
+                    className="md:w-1/3"
+                    data-aos="fade-left"
+                    data-aos-duration="700"
+                    data-aos-easing="ease-in-sine"
+                >
                     <h3>Web</h3>
                     <p>
                         Je vous propose de vous accompagner dans la création de
@@ -55,7 +75,12 @@ export default function Contact({ Component, pageProps }) {
                         une présence digitale et une visibilité sans fail.
                     </p>
                 </div>
-                <div className="mt-4 md:mt-0 md:ml-2 md:w-1/3">
+                <div
+                    className="mt-4 md:mt-0 md:ml-2 md:w-1/3"
+                    data-aos="fade-left"
+                    data-aos-duration="900"
+                    data-aos-easing="ease-in-sine"
+                >
                     <h3>Edition</h3>
                     <p>
                         Programme culturelles, brochure, flyers, livre de
@@ -64,7 +89,12 @@ export default function Contact({ Component, pageProps }) {
                         répondre à vos besoins quelques soit le support.
                     </p>
                 </div>
-                <div className="mt-4 md:mt-0 md:ml-2 md:w-1/3">
+                <div
+                    className="mt-4 md:mt-0 md:ml-2 md:w-1/3"
+                    data-aos="fade-left"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-sine"
+                >
                     <h3>Social media</h3>
                     <p>
                         Il est indispensable de communiquer sur vos services
@@ -83,7 +113,12 @@ export default function Contact({ Component, pageProps }) {
                         <source src="/images/Luluberlu.MP4" type="video/mp4" />
                     </video>
                 </div>
-                <div className="md:w-7/12 pt-20 md:pt-40 px-5 md:px-20 order-1 md:order-2">
+                <div
+                    className="md:w-7/12 pt-20 md:pt-40 px-5 md:px-20 order-1 md:order-2"
+                    data-aos="fade-left"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-sine"
+                >
                     <p className="contact-text md:text-5xl gradual-light">
                         Mon univers vous plaît ? Alors créons ensemble vos plus
                         beaux projets !

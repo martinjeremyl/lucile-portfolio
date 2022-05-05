@@ -70,7 +70,12 @@ export default function MamieBoulette({ Component, pageProps }) {
                         layout="responsive"
                     />
                 </div>
-                <div className="md:w-1/4 md:ml-20 w-100 self-center">
+                <div
+                    className="md:w-1/4 md:ml-20 w-100 self-center"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-sine"
+                >
                     <h2 className="mt-2 mb-8 text-3xl md:text-4xl">
                         Logotype et un <br></br> univers graphique <br></br>{" "}
                         pour le théâtre <br></br> de Nîmes
@@ -127,7 +132,12 @@ export default function MamieBoulette({ Component, pageProps }) {
                 </div>
             </div>
             <div className="custom container mx-auto mt-8">
-                <div className="md:w-1/3 ml-10">
+                <div
+                    className="md:w-1/3 ml-10"
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-sine"
+                >
                     <h3>CUSTOM TYPE</h3>
                     <p className="detail-text mt-4">
                         Les courbes de certaines lettres sont retravaillées pour

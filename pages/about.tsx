@@ -4,7 +4,12 @@ export default function About({ Component, pageProps }) {
     return (
         <div className="custom-container pb-20 mx-auto px-4 md:px-0">
             <div className="md:flex">
-                <div className="md:w-1/2 relative blue-text-container pt-20 md:pt-12 p-5 md:p-8">
+                <div
+                    className="md:w-1/2 relative blue-text-container pt-20 md:pt-12 p-5 md:p-8"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-sine"
+                >
                     De nature <span className="underline">passionnée</span>
                     ,&nbsp;
                     <br></br>
@@ -63,7 +68,12 @@ export default function About({ Component, pageProps }) {
                         layout="responsive"
                     />
                 </div>
-                <div className="w-full md:w-1/2 text-xl p-8 order-1 md:order-2">
+                <div
+                    className="w-full md:w-1/2 text-xl p-8 order-1 md:order-2"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-sine"
+                >
                     <p>
                         En bref, je suis Lucile. Une directrice artistique
                         junior indépendante passionnée et déterminé.

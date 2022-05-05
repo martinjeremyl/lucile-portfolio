@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "embla-carousel-react": "^6.2.0",
     "next": "12.0.10",
     "nextjs-progressbar": "^0.0.14",

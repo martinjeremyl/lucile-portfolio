@@ -70,7 +70,12 @@ export default function Tlmd({ Component, pageProps }) {
                         layout="responsive"
                     />
                 </div>
-                <div className="md:w-2/6 md:ml-20 w-100 md:flex flex-col self-center">
+                <div
+                    className="md:w-2/6 md:ml-20 w-100 md:flex flex-col self-center"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-sine"
+                >
                     <div>
                         <h2 className="mt-2 mb-8 text-3xl md:text-4xl">
                             Logotype pour <br></br>une galerie d&apos;art

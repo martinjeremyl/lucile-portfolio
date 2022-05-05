@@ -69,7 +69,12 @@ export default function Transformer({ Component, pageProps }) {
                     </video>
                 </div>
                 <div className="md:w-1/12"></div>
-                <div className="md:w-1/4 md:ml-20 w-100 self-center">
+                <div
+                    className="md:w-1/4 md:ml-20 w-100 self-center"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-sine"
+                >
                     <h2 className="mt-2 mb-8 text-3xl md:text-4xl">
                         Festival autour <br></br> du personnage <br></br> de
                         Camille Claudel.
