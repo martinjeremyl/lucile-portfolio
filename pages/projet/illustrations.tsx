@@ -60,9 +60,9 @@ export default function Illustrations({ Component, pageProps }) {
                 layout="responsive"
             />
             <div className="md:flex custom-container mx-auto mt-8">
-                <div className="md:w-1/3 w-100">
+                <div className="lg:w-1/4 md:w-1/3 w-100">
                     <Image
-                        src={"/images/ILLU-FLEUR/illu.jpg"}
+                        src={"/images/illustrations/illustrations.jpg"}
                         alt={"Chaussures SHIFT"}
                         height={822}
                         width={588}
@@ -70,32 +70,149 @@ export default function Illustrations({ Component, pageProps }) {
                         layout="responsive"
                     />
                 </div>
-                <div className="md:w-1/4 ml-8 w-100">
+                <div className="lg:w-1/4 md:w-1/3 md:ml-4 w-100">
                     <Image
-                        src={"/images/ILLU-FLEUR/zoom.jpg"}
+                        src={"/images/illustrations/illustrations10.jpg"}
                         alt={"Chaussures SHIFT"}
-                        height={605}
-                        width={428}
+                        height={822}
+                        width={588}
                         priority={true}
                         layout="responsive"
                     />
                 </div>
-                <div className="md:w-1/4 md:ml-20 w-100 ">
+                <div className="lg:w-1/3    md:w-1/3 w-100 md:ml-20 w-100 ">
                     <h2 className="mt-2 mb-8 text-3xl md:text-4xl">
-                        Logotype pour <br></br> une enseigne <br></br> de
-                        sandwich à <br></br> base de boulettes
+                        Quelques illustrations réalisées à titre personnel.
                     </h2>
                     <p className="detail-text mb-3">
-                        On ne pouvait pas proposer un logotype Mamie Boulette
-                        sans tenter d’incarner le personnage que suggère le nom
-                        ! L’illustration est la traduction en personnage stylisé
-                        de la mamie et des boulettes : un visage fait de cercles
-                        reflétant la bienveillance, le plaisir et la
-                        gourmandise. Tout est dit dans ce visage ! Une promesse
-                        de plaisir gustatif préparé avec amour. Plusieurs types
-                        de marquage sont possibles à partir de la typographie
-                        dessinée, jusqu’à l’acronyme MB.
+                        Chacune de ces illustrations ont été réalisées sur
+                        Illustrator ou procreate. Certaines font partie de
+                        projets, d’autres sont des petites animations pour
+                        m’entraîner et d’autres seulement des illustrations
+                        personnelles.
                     </p>
+                </div>
+            </div>
+            <div className="md:flex custom-container mx-auto mt-4">
+                <div className="lg:w-1/4 md:w-1/3 w-100">
+                    <Image
+                        src={"/images/illustrations/illustrations12.jpg"}
+                        alt={"Chaussures SHIFT"}
+                        height={822}
+                        width={588}
+                        priority={true}
+                        layout="responsive"
+                    />
+                </div>
+                <div className="lg:w-1/4 md:w-1/3 md:ml-4 w-100">
+                    <Image
+                        src={"/images/illustrations/illustrations5.jpg"}
+                        alt={"Chaussures SHIFT"}
+                        height={822}
+                        width={588}
+                        priority={true}
+                        layout="responsive"
+                    />
+                </div>
+                <div className="lg:w-1/4 md:w-1/3 md:ml-4 w-100">
+                    <Image
+                        src={"/images/illustrations/illustrations9.jpg"}
+                        alt={"Chaussures SHIFT"}
+                        height={822}
+                        width={588}
+                        priority={true}
+                        layout="responsive"
+                    />
+                </div>
+                <div className="lg:w-1/4 md:w-1/3 md:ml-4 w-100">
+                    <Image
+                        src={"/images/illustrations/illustrations11.jpg"}
+                        alt={"Chaussures SHIFT"}
+                        height={822}
+                        width={588}
+                        priority={true}
+                        layout="responsive"
+                    />
+                </div>
+            </div>
+            <div className="md:flex custom-container mx-auto mt-4">
+                <div className="lg:w-1/4 md:w-1/3 w-100">
+                    <Image
+                        src={"/images/illustrations/illustrations8.jpg"}
+                        alt={"Chaussures SHIFT"}
+                        height={822}
+                        width={588}
+                        priority={true}
+                        layout="responsive"
+                    />
+                </div>
+                <div className="lg:w-1/4 md:w-1/3 md:ml-4 w-100">
+                    <Image
+                        src={"/images/illustrations/illustrations6.jpg"}
+                        alt={"Chaussures SHIFT"}
+                        height={822}
+                        width={588}
+                        priority={true}
+                        layout="responsive"
+                    />
+                </div>
+                <div className="lg:w-1/4 md:w-1/3 md:ml-4 w-100">
+                    <Image
+                        src={"/images/illustrations/illustrations7.jpg"}
+                        alt={"Chaussures SHIFT"}
+                        height={822}
+                        width={588}
+                        priority={true}
+                        layout="responsive"
+                    />
+                </div>
+                <div className="lg:w-1/4 md:w-1/3 md:ml-4 w-100">
+                    <Image
+                        src={"/images/illustrations/illustrations3.jpg"}
+                        alt={"Chaussures SHIFT"}
+                        height={822}
+                        width={588}
+                        priority={true}
+                        layout="responsive"
+                    />
+                </div>
+            </div>
+            <div className="md:flex custom-container mx-auto mt-4">
+                <div className="lg:w-1/4 md:w-1/3 w-100">
+                    <video autoPlay loop muted>
+                        <source
+                            src="/images/illustrations/video-output-4048A765-03F0-4946-9C4D-95C4C444FBE1.MP4"
+                            type="video/mp4"
+                        />
+                    </video>
+                </div>
+                <div className="lg:w-1/4 md:w-1/3 md:ml-4 w-100">
+                    <Image
+                        src={"/images/illustrations/illustrations4.jpg"}
+                        alt={"Chaussures SHIFT"}
+                        height={822}
+                        width={588}
+                        priority={true}
+                        layout="responsive"
+                    />
+                </div>
+                <div className="lg:w-1/4 md:w-1/3 md:ml-4 w-100">
+                    <video autoPlay loop muted>
+                        <source
+                            src="/images/illustrations/video-output-2E58F44F-4DB7-4B97-A372-E5813F60F43B.MP4"
+                            type="video/mp4"
+                        />
+                    </video>
+                </div>
+                <div className="lg:w-1/4 md:w-1/3 md:ml-4 w-100">
+                    <Image
+                        src={"/images/illustrations/illustrations2.jpg"}
+                        alt={"Chaussures SHIFT"}
+                        height={822}
+                        width={588}
+                        priority={true}
+                        layout="responsive"
+                    />
                 </div>
             </div>
         </div>
