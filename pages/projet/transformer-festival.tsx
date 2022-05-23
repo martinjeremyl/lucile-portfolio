@@ -61,7 +61,7 @@ export default function Transformer({ Component, pageProps }) {
             />
             <div className="md:flex custom-container items-center mx-auto mt-8">
                 <div className="md:w-1/2 w-100">
-                    <video autoPlay loop muted>
+                    <video autoPlay loop muted playsInline>
                         <source
                             src="/images/FESTIVAL/TRS.mp4"
                             type="video/mp4"
