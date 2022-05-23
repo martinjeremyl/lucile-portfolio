@@ -93,7 +93,7 @@ export default function Cirva({ Component, pageProps }) {
             </div>
             <div className="custom-container mx-auto mt-8">
                 <div>
-                    <video autoPlay loop muted>
+                    <video autoPlay loop muted playsInline>
                         <source
                             src="/images/CIRVA/CRV-VIDEO.mp4"
                             type="video/mp4"

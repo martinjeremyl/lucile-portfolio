@@ -179,7 +179,7 @@ export default function Illustrations({ Component, pageProps }) {
             </div>
             <div className="md:flex custom-container mx-auto mt-4">
                 <div className="lg:w-1/4 md:w-1/3 w-100">
-                    <video autoPlay loop muted>
+                    <video autoPlay loop muted playsInline>
                         <source
                             src="/images/illustrations/video-output-4048A765-03F0-4946-9C4D-95C4C444FBE1.MP4"
                             type="video/mp4"
@@ -197,7 +197,7 @@ export default function Illustrations({ Component, pageProps }) {
                     />
                 </div>
                 <div className="lg:w-1/4 md:w-1/3 md:ml-4 w-100">
-                    <video autoPlay loop muted>
+                    <video autoPlay loop muted playsInline>
                         <source
                             src="/images/illustrations/video-output-2E58F44F-4DB7-4B97-A372-E5813F60F43B.MP4"
                             type="video/mp4"

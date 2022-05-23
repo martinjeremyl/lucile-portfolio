@@ -109,7 +109,7 @@ export default function Contact({ Component, pageProps }) {
             </div>
             <div className="flex flex-col md:flex-row">
                 <div className="md:w-5/12 order-2 md:order-1">
-                    <video autoPlay loop muted>
+                    <video autoPlay loop muted playsInline>
                         <source src="/images/Luluberlu.MP4" type="video/mp4" />
                     </video>
                 </div>
