@@ -76,27 +76,27 @@ export default function About({ Component, pageProps }) {
                 >
                     <p>
                         En bref, je suis Lucile. Une directrice artistique
-                        junior indépendante passionnée et déterminé.
+                        junior indépendante passionnée et déterminée.
                     </p>
                     <br></br>
                     <p>
                         Après un échange ensemble, nous pouvons tout réaliser.
                         Le studio vous accompagnera dans la réalisation
-                        d’identités visuelles, de contenus digitaux, vos
-                        packaging ainsi que sur tous les visuels demandé.
+                        d’identités visuelles, de contenus digitaux, de vos
+                        packagings ainsi que sur tous les visuels demandés.
                     </p>
                     <br></br>
                     <hr></hr>
                     <br></br>
                     <p>
                         Le surf est ma principale passion autant pour les
-                        sensations que ce sport procure, autant pour l’état
-                        d’esprit qui véhicule !
+                        sensations que ce sport procure que pour l’état d’esprit
+                        qui véhicule !
                     </p>{" "}
                     <br></br>
                     <p>
-                        Les voyages parce que c’est enrichissant dans tous les
-                        sens du termes !
+                        Les voyages, parce que c’est enrichissant dans tous les
+                        sens du terme !
                     </p>{" "}
                     <br></br>
                     <p>
@@ -111,8 +111,8 @@ export default function About({ Component, pageProps }) {
                         des gens autour d’une bière ça fait toujours plaisir.
                     </p>{" "}
                     <br></br>
-                    J’ai toujours collectionné les chaussettes colorées au
-                    motifs les plus farfelues
+                    J’ai toujours collectionné les chaussettes colorées aux
+                    motifs les plus farfelus
                 </div>
             </div>
         </div>

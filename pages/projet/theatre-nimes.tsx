@@ -82,7 +82,7 @@ export default function MamieBoulette({ Component, pageProps }) {
                     </h2>
                     <p className="detail-text mb-3">
                         Notre démarche : trouver un signe fort, simple et
-                        évident avec une richesse de sens. Le mot théâtre et
+                        évident avec une richesse de sens. Les mots théâtre et
                         Nîmes ont en commun l’accent circonflexe. Graphiquement,
                         ce signe est l’union entre l’accent grave et l’accent
                         aigu. L’usage que nous retenons ici est l’indication

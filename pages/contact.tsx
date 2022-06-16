@@ -21,7 +21,7 @@ export default function Contact({ Component, pageProps }) {
                 >
                     <h3>Logo & Motion</h3>
                     <p>
-                        À vos côtés, je créais une identité visuelle qui vous
+                        À vos côtés, je créerai une identité visuelle qui vous
                         correspond. Celle-ci reflétera vos valeurs et vos
                         ambitions.<br></br> Avec une image de marque adéquate,
                         vous aurez toutes les clés pour une stratégie de
@@ -36,11 +36,11 @@ export default function Contact({ Component, pageProps }) {
                 >
                     <h3>Illustrations</h3>
                     <p>
-                        Passionnée de dessin depuis toujours, ce serais un
+                        Passionnée de dessin depuis toujours, ce serait un
                         plaisir pour moi de pouvoir illustrer vos demandes.
                         <br></br>
                         Affiches, motifs ou cartes postales, je peux réaliser
-                        tout types d’illustrations. Chaque demandes est un défi
+                        tous types d’illustrations. Chaque demande est un défi
                         que je compte relever avec créativité et précision.
                     </p>
                 </div>
@@ -72,7 +72,7 @@ export default function Contact({ Component, pageProps }) {
                         Je vous propose de vous accompagner dans la création de
                         votre site à votre image.<br></br> Un site intuitif et
                         qui reflète votre image de marque est indispensable pour
-                        une présence digitale et une visibilité sans fail.
+                        une présence digitale et une visibilité sans faille.
                     </p>
                 </div>
                 <div
@@ -83,10 +83,10 @@ export default function Contact({ Component, pageProps }) {
                 >
                     <h3>Edition</h3>
                     <p>
-                        Programme culturelles, brochure, flyers, livre de
-                        jeunesse; je suis ouverte aux propositions.<br></br>{" "}
-                        Ayant travaillé sur divers projets d’éditions, je peux
-                        répondre à vos besoins quelques soit le support.
+                        Programmes culturels, brochures, flyers, livres de
+                        jeunesse; je suis ouverte à toutes propositions.
+                        <br></br> Ayant travaillé sur divers projets d’édition,
+                        je peux répondre à vos besoins quelque soit le support.
                     </p>
                 </div>
                 <div
@@ -102,8 +102,8 @@ export default function Contact({ Component, pageProps }) {
                         permet à vos clients d’en savoir plus sur votre
                         entreprise. C’est pourquoi il est essentiel d’avoir un
                         flux régulier et cohérent qui attire l’attention de
-                        votre cible. Je réaliserai pour vous des visuelles pour
-                        un feed qui épatera votre future clientèle !
+                        votre cible. Je réaliserai pour vous des visuels pour un
+                        feed qui épatera votre future clientèle !
                     </p>
                 </div>
             </div>

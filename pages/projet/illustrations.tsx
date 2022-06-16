@@ -86,7 +86,7 @@ export default function Illustrations({ Component, pageProps }) {
                     </h2>
                     <p className="detail-text mb-3">
                         Chacune de ces illustrations ont été réalisées sur
-                        Illustrator ou procreate. Certaines font partie de
+                        Illustrator ou Procreate. Certaines font partie de
                         projets, d’autres sont des petites animations pour
                         m’entraîner et d’autres seulement des illustrations
                         personnelles.

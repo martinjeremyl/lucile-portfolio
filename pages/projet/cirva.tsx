@@ -83,9 +83,9 @@ export default function Cirva({ Component, pageProps }) {
                     <p className="detail-text mb-3">
                         Cette édition est destinée aux artisans, aux artistes,
                         aux designers... Elle regroupe des techniques de
-                        fabrication, des solutions d’ecoconception, des
+                        fabrication, des solutions d’éco-conception, des
                         ouvertures sur de nouveaux designs. C’est une édition
-                        qui fait le lien entre l’écoconception et les designers
+                        qui fait le lien entre l’éco-conception et les designers
                         d’aujourd’hui. Elle présente un artisanat tourné vers le
                         futur.
                     </p>
